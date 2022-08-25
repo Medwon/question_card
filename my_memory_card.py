@@ -78,10 +78,6 @@ def start_test():
     if bt_an.text() == 'Ответить':
         show_result()
 
-
-
-
-
 def ask(q: Question):
     shuffle(awnsers)
     awnsers[0].setText(q.rihgt)
